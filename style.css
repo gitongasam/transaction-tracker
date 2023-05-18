@@ -6,13 +6,29 @@ body {
   h1 {
     text-align: center;
   }
+  h2{
+    text-align: center;
+  }
   
   .transaction-form {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   max-width: 450px;
+   width: 50%;
+   margin: 0 auto;
   }
   
   .transaction-form h2 {
     margin-bottom: 10px;
+  }
+  .transaction-list{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   max-width: 450px;
+   width: 50%;
+   margin: 0 auto;
   }
   
   .transaction-form input[type="text"],
@@ -44,4 +60,8 @@ body {
   .transaction-list .expense {
     background-color: #f2dede;
   }
-  
+.cotainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
